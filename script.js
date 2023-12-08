@@ -17,8 +17,8 @@ function calculate() {
     // Output
     document.getElementById("ave").innerHTML = result
     if (result < 50) {
-        document.getElementById("frp").innerHTML = `Failing grad.`
+        document.getElementById("frp").innerHTML = `Failing grade.`
     } else {
-        document.getElementById("frp").innerHTML = `Passing grad!` 
+        document.getElementById("frp").innerHTML = `Passing grade!` 
     }
 }
